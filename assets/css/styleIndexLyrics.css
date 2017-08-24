@@ -1,0 +1,191 @@
+/*Navbar*/
+#navbar {
+    background-color: #582A72;
+    padding: 10px 10px 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#navbar_items {
+    width: 80%;
+    display: inline-block;
+}
+#navbar_items ul {
+    list-style: none;
+    color: white;
+    padding: 0;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    display: block;
+    position: relative;
+    top: -5px;
+}
+
+#navbar_items .item {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 12pt;
+    float: right;
+    margin-top: 15px;
+}
+
+#navbar_items .hover:hover {
+    background-color: #7B0060;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #794A8D;
+    width: 140px;
+    left: 0;
+    top: 100%;
+}
+
+.dropdown .drop {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.drop:hover {
+    background-color: #7B0060;
+}
+
+.lyrics-nav:hover .dropdown {
+    display: block;
+}
+
+.lyrics-nav {
+    position: relative;
+}
+
+/*Content*/
+#content-container {
+    width: 75%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #E6E6FA;
+    overflow: auto;
+    padding: 30px;
+}
+
+#bandpic {
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+}
+
+#bandpic img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#lyrics {
+    float: left;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18pt;
+    letter-spacing: 1px;
+}
+
+#lyrics #artist {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42pt;
+}
+
+#lyrics #title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60pt;
+}
+
+#lyrics #album {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+}
+
+
+#embed {
+    position: relative;
+    z-index: 5;
+    float: right;
+}
+
+
+
+html, body {
+    margin:0;
+    padding:0;
+
+}
+
+/*========================================================*/
+/*Footer Info*/
+/*========================================================*/
+
+.footer1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-color: #582A72;
+    bottom: 0;
+    left: 0;
+    /*position: fixed;*/
+}
+
+#footer_artist1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #582A72;
+    bottom: 0;
+    left: 0;
+    margin-top: -66px;
+    /*position: fixed;*/
+}
+
+.footitem1 {
+    display: inline-block;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.footitem1:hover {
+    color: gray;
+    transform: scale(1.1);
+    transition: 0.15s;
+}
+
+.social1 {
+    color: white;
+    display: inline-block;
+    margin: 15px;
+}
+
+.social1 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.social1:hover {
+    transform: scale(1.1);
+    transition: 0.15s;
+}
+
+.copyright1 {
+    font-size: 12px;
+}

@@ -1,0 +1,75 @@
+/*Top Image*/
+#about {
+    position: relative;
+    z-index: -1;
+}
+
+#about img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#about #overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 2;
+}
+
+#about #text {
+    position: absolute;
+    width: 400px;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45pt;
+    font-weight: 700;
+    color: white;
+    z-index: 3;
+}
+
+/*Albums*/
+#album-container {
+    width: 75%;
+    background-color: #E6E6FA;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#album-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35pt;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.album {
+    margin: 0 40px;
+    display: inline-block;
+}
+
+.description, .song {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.song {
+    margin-top: 10px;
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.album img {
+    height: 350px;
+}

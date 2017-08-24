@@ -1,0 +1,339 @@
+/*Navbar*/
+#navbar {
+    background-color: #582A72;
+    padding: 10px 10px 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#navbar_items {
+    width: 80%;
+    display: inline-block;
+}
+#navbar_items ul {
+    list-style: none;
+    color: white;
+    padding: 0;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    display: block;
+    position: relative;
+    top: -5px;
+}
+
+#navbar_items .item {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 12pt;
+    float: right;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+#navbar_items .hover:hover {
+    background-color: #7B0060;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #794A8D;
+    width: 140px;
+    left: 0;
+    top: 100%;
+}
+
+.dropdown .drop {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.drop:hover {
+    background-color: #7B0060;
+}
+
+.lyrics-nav:hover .dropdown {
+    display: block;
+}
+
+.lyrics-nav {
+    position: relative;
+}
+
+/*Content*/
+#content-container {
+    width: 75%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #E6E6FA;
+    overflow: auto;
+    padding: 30px;
+}
+
+#bandpic {
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+}
+
+#bandpic img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#lyrics {
+    float: left;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18pt;
+    letter-spacing: 1px;
+}
+
+#lyrics #artist {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42pt;
+}
+
+#lyrics #title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60pt;
+}
+
+#lyrics #album {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+}
+
+
+#embed {
+    position: relative;
+    z-index: 5;
+    float: right;
+}
+
+
+
+html, body {
+    margin:0;
+    padding:0;
+
+}
+
+/*Artist*/
+#margins ul {
+    list-style: none;
+}
+
+#song_list {
+    list-style: none;
+}
+
+#artist_title {
+    font-family: Montserrat;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    position: relative;
+    top: 50px;
+}
+
+#album_title {
+    font-family: Montserrat;
+    font-size: 26px;
+    left: 120px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.album_covers {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 70px;
+}
+
+.album {
+    font-family: Open Sans;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    left: 70px;
+}
+
+#margins {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #E6E6FA;
+    top: -50;
+    bottom: 0;
+    padding: 0;
+    position: relative;
+}
+
+#song_list {
+    float: right;
+    font-family: Open Sans;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 188px;
+    left: 370px;
+    text-align: center;
+}
+
+#songs_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.song:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#song_bullets {
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+/*========================================================*/
+/*Search CSS*/
+/*========================================================*/
+.search_container {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    padding: 20px;
+    width: 75%;
+    height: 700px;
+}
+ 
+.search_text {
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 20px;
+}
+ 
+.artistresults {
+    margin-top: 30px;
+    text-align: center;
+    /*float: left;*/
+    display: block;
+}
+ 
+.songresults {
+    margin-top: 30px;
+    width: 100%;
+    /*height: 500px;*/
+    margin-bottom: 100px;
+}
+ 
+.songs {
+    margin-left: 50px;
+    margin-top: 30px;
+    display: inline-block;
+    float: left;
+    /*margin-bottom: 60px;*/
+}
+ 
+.songs:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+ 
+#songs { 
+    font-size: 20px;
+    margin-top: 150px;  
+}
+ 
+#songs:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+ 
+.input[type=text] {
+    width: 80px;
+    -webkit-transition: width 4s ease-in-out;
+    transition: width 4s ease-in-out;
+}
+ 
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 20%;
+    transition: 1s;
+}
+
+/*========================================================*/
+/*Footer Info*/
+/*========================================================*/
+ 
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #582A72; 
+    bottom: 0;
+    left: 0;
+    /*position: fixed;*/
+}
+
+#footer_artist {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #582A72; 
+    bottom: 0;
+    left: 0;
+    margin-top: -66px;
+    /*position: fixed;*/
+}
+ 
+.footitem {
+    display: inline-block;
+    margin: 15px;
+    font-size: 14px;
+}
+ 
+.footitem:hover {
+    color: gray;
+    transform: scale(1.1);
+    transition: 0.15s;
+}
+ 
+.social {
+    color: white;
+    display: inline-block;
+    margin: 15px;
+}
+ 
+.social a {
+    text-decoration: none;
+}
+ 
+.social a:visited {
+    color: white;
+}
+ 
+.social:hover {
+    transform: scale(1.1);
+    transition: 0.15s;
+}
+ 
+.copyright { 
+    font-size: 12px;
+}
